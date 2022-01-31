@@ -50,7 +50,7 @@ hi PreCondit          ctermbg=NONE       ctermfg=255
 hi PreProc            ctermbg=NONE       ctermfg=255
 hi Question           ctermbg=NONE       ctermfg=255
 hi Repeat             ctermbg=NONE       ctermfg=255
-hi Search             ctermbg=NONE       ctermfg=186
+hi Search             ctermbg=241        ctermfg=255
 hi SpecialChar        ctermbg=NONE       ctermfg=255
 hi SpecialComment     ctermbg=NONE       ctermfg=255
 hi Special            ctermbg=NONE       ctermfg=255
@@ -81,3 +81,4 @@ hi WildMenu           ctermbg=NONE       ctermfg=255
 "hi def link diffRemoved DiffDelet
 "hi def link diffChanged DiffChang
 "hi def link diffAdded DiffAdd
+
