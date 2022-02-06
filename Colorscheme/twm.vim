@@ -6,13 +6,14 @@ let g:colors_name='twm'
 
 hi Boolean            ctermbg=NONE       ctermfg=255
 hi Character          ctermbg=NONE       ctermfg=255
-hi ColorColumn        ctermbg=NONE        ctermfg=255
+hi ColorColumn        ctermbg=NONE       ctermfg=255
 hi Comment            ctermbg=NONE       ctermfg=153
 hi Condtional         ctermbg=NONE       ctermfg=255
 hi Constant           ctermbg=NONE       ctermfg=255
 hi CursorColumn       ctermbg=NONE       ctermfg=255
 hi Cursor             ctermbg=NONE       ctermfg=255
 hi CursorLine         ctermbg=233        ctermfg=255       cterm=bold
+hi CursorLineNr       ctermbg=NONE       ctermfg=240       term=bold cterm=bold gui=bold
 hi Debug              ctermbg=NONE       ctermfg=255
 hi Define             ctermbg=NONE       ctermfg=255
 hi Delimiter          ctermbg=NONE       ctermfg=149
@@ -72,7 +73,7 @@ hi Todo               ctermbg=NONE       ctermfg=240
 hi Type               ctermbg=NONE       ctermfg=103
 hi Typedef            ctermbg=NONE       ctermfg=55
 hi VertSplit          ctermbg=NONE       ctermfg=255
-hi Visual             ctermbg=NONE       ctermfg=186
+hi Visual             ctermbg=238       ctermfg=255
 hi VisualNOS          ctermbg=NONE       ctermfg=255
 hi WarningMsg         ctermbg=NONE       ctermfg=255
 hi WildMenu           ctermbg=NONE       ctermfg=255
@@ -81,4 +82,5 @@ hi WildMenu           ctermbg=NONE       ctermfg=255
 "hi def link diffRemoved DiffDelet
 "hi def link diffChanged DiffChang
 "hi def link diffAdded DiffAdd
+
 
