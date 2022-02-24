@@ -12,7 +12,7 @@ hi Condtional         ctermbg=NONE       ctermfg=255
 hi Constant           ctermbg=NONE       ctermfg=255
 hi CursorColumn       ctermbg=NONE       ctermfg=255
 hi Cursor             ctermbg=NONE       ctermfg=255
-hi CursorLine         ctermbg=233        ctermfg=255       cterm=bold
+hi CursorLine         ctermbg=232        ctermfg=255       cterm=bold
 hi CursorLineNr       ctermbg=NONE       ctermfg=255       term=bold cterm=bold gui=bold
 hi Debug              ctermbg=NONE       ctermfg=255
 hi Define             ctermbg=NONE       ctermfg=255
