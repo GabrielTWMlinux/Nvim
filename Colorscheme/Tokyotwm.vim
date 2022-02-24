@@ -7,13 +7,13 @@ let g:colors_name='twm'
 hi Boolean            ctermbg=NONE       ctermfg=255
 hi Character          ctermbg=NONE       ctermfg=255
 hi ColorColumn        ctermbg=NONE       ctermfg=255
-hi Comment            ctermbg=NONE       ctermfg=153
+hi Comment            ctermbg=NONE       ctermfg=75
 hi Condtional         ctermbg=NONE       ctermfg=255
 hi Constant           ctermbg=NONE       ctermfg=255
 hi CursorColumn       ctermbg=NONE       ctermfg=255
 hi Cursor             ctermbg=NONE       ctermfg=255
 hi CursorLine         ctermbg=233        ctermfg=255       cterm=bold
-hi CursorLineNr       ctermbg=NONE       ctermfg=255       term=bold cterm=bold gui=bold
+hi CursorLineNr       ctermbg=233        ctermfg=255       term=bold cterm=bold gui=bold
 hi Debug              ctermbg=NONE       ctermfg=255
 hi Define             ctermbg=NONE       ctermfg=255
 hi Delimiter          ctermbg=NONE       ctermfg=149
@@ -29,12 +29,12 @@ hi Float              ctermbg=NONE       ctermfg=255
 hi FoldColumn         ctermbg=NONE       ctermfg=255
 hi Folded             ctermbg=NONE       ctermfg=255
 hi Function           ctermbg=NONE       ctermfg=255
-hi Identifier         ctermbg=NONE       ctermfg=103
+hi Identifier         ctermbg=NONE       ctermfg=153
 hi Include            ctermbg=NONE       ctermfg=255
 hi IncSearch          ctermbg=NONE       ctermfg=255
 hi Keyword            ctermbg=NONE       ctermfg=255
 hi Label              ctermbg=NONE       ctermfg=255
-hi LineNr             ctermbg=NONE       ctermfg=241
+hi LineNr             ctermbg=NONE       ctermfg=103
 hi Macro              ctermbg=NONE       ctermfg=255
 hi MatchParen         ctermbg=NONE       ctermfg=255
 hi ModeMsg            ctermbg=NONE       ctermfg=255
@@ -51,7 +51,7 @@ hi PreCondit          ctermbg=NONE       ctermfg=255
 hi PreProc            ctermbg=NONE       ctermfg=255
 hi Question           ctermbg=NONE       ctermfg=255
 hi Repeat             ctermbg=NONE       ctermfg=255
-hi Search             ctermbg=241        ctermfg=255
+hi Search             ctermbg=33         ctermfg=255
 hi SpecialChar        ctermbg=NONE       ctermfg=255
 hi SpecialComment     ctermbg=NONE       ctermfg=255
 hi Special            ctermbg=NONE       ctermfg=255
@@ -61,7 +61,7 @@ hi SpellCap           ctermbg=NONE       ctermfg=250
 hi SpellLocal         ctermbg=NONE       ctermfg=250
 hi SpellRare          ctermbg=NONE       ctermfg=250
 hi Statement          ctermbg=NONE       ctermfg=231
-hi StatusLine         ctermfg=232        ctermbg=238
+hi StatusLine         ctermfg=233        ctermbg=255
 hi StatusLineNC       ctermbg=NONE       ctermfg=250
 hi StorageClass       ctermbg=NONE       ctermfg=250
 hi String             ctermbg=NONE       ctermfg=245
@@ -73,12 +73,14 @@ hi Todo               ctermbg=NONE       ctermfg=240
 hi Type               ctermbg=NONE       ctermfg=103
 hi Typedef            ctermbg=NONE       ctermfg=55
 hi VertSplit          ctermbg=NONE       ctermfg=255
-hi Visual             ctermbg=238       ctermfg=255
+hi Visual             ctermbg=25         ctermfg=255
 hi VisualNOS          ctermbg=NONE       ctermfg=255
 hi WarningMsg         ctermbg=NONE       ctermfg=255
 hi WildMenu           ctermbg=NONE       ctermfg=255
 
 "hi def link diffCommon Statement
 "hi def link diffRemoved DiffDelet
-"hi def lin diffChanged DiffChang
+"hi def link diffChanged DiffChang
 "hi def link diffAdded DiffAdd
+
+
