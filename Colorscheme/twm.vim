@@ -12,7 +12,7 @@ hi Condtional         ctermbg=NONE       ctermfg=255
 hi Constant           ctermbg=NONE       ctermfg=255
 hi CursorColumn       ctermbg=NONE       ctermfg=255
 hi Cursor             ctermbg=NONE       ctermfg=255
-hi CursorLine         ctermbg=232        ctermfg=255       cterm=bold
+hi CursorLine         ctermbg=233        ctermfg=255       cterm=bold
 hi CursorLineNr       ctermbg=NONE       ctermfg=255       term=bold cterm=bold gui=bold
 hi Debug              ctermbg=NONE       ctermfg=255
 hi Define             ctermbg=NONE       ctermfg=255
@@ -34,7 +34,7 @@ hi Include            ctermbg=NONE       ctermfg=255
 hi IncSearch          ctermbg=NONE       ctermfg=255
 hi Keyword            ctermbg=NONE       ctermfg=255
 hi Label              ctermbg=NONE       ctermfg=255
-hi LineNr             ctermbg=NONE       ctermfg=241
+hi LineNr             ctermbg=NONE       ctermfg=240
 hi Macro              ctermbg=NONE       ctermfg=255
 hi MatchParen         ctermbg=NONE       ctermfg=255
 hi ModeMsg            ctermbg=NONE       ctermfg=255
