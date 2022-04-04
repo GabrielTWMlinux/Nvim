@@ -60,7 +60,7 @@ hi SpellBad           guibg=bcbcbc       guifg=#000000
 hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
-hi Statement          guibg=NONE         guifg=#bcbcbc
+hi Statement          guibg=NONE         guifg=#ffffff
 hi StatusLine         guibg=#666666      guifg=#060609
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc

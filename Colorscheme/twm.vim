@@ -16,7 +16,7 @@ hi CursorLine         guibg=#1e1e21      guifg=#ffffff     gui=bold
 hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
 hi Debug              guibg=NONE         guifg=#ffffff
 hi Define             guibg=NONE         guifg=#ffffff
-hi Delimiter          guibg=NONE         guifg=#ffffff
+hi Delimiter          guibg=NONE         guifg=#777777
 hi DiffAdd            guibg=NONE         guifg=#ffffff
 hi DiffChange         guibg=NONE         guifg=#ffffff
 hi DiffDelete         guibg=NONE         guifg=#ffffff
@@ -34,7 +34,7 @@ hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
 hi Label              guibg=NONE         guifg=#ffffff
-hi LineNr             guibg=NONE         guifg=#444444
+hi LineNr             guibg=NONE         guifg=#666666
 hi Macro              guibg=NONE         guifg=#ffffff
 hi MatchParen         guibg=NONE         guifg=#ffffff
 hi ModeMsg            guibg=NONE         guifg=#ffffff
@@ -45,7 +45,7 @@ hi Number             guibg=NONE         guifg=#ffffff
 hi Operator           guibg=NONE         guifg=#ffffff
 hi Pmenu              guibg=NONE         guifg=#ffffff
 hi PmenuSbar          guibg=NONE         guifg=#ffffff
-hi PmenuSel           guibg=NONE         guifg=#999999        gui=bold
+hi PmenuSel           guibg=NONE         guifg=#777777        gui=bold
 hi PmenuThumb         guibg=NONE         guifg=#ffffff
 hi PreCondit          guibg=NONE         guifg=#ffffff
 hi PreProc            guibg=NONE         guifg=#ffffff
@@ -56,15 +56,15 @@ hi SpecialChar        guibg=NONE         guifg=#ffffff
 hi SpecialComment     guibg=NONE         guifg=#ffffff
 hi Special            guibg=NONE         guifg=#ffffff
 hi SpecialKey         guibg=NONE         guifg=#ffffff
-hi SpellBad           guibg=bcbcbc       guifg=#000000
+hi SpellBad           guibg=#bcbcbc      guifg=#000000
 hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
-hi Statement          guibg=NONE         guifg=#bcbcbc
+hi Statement          guibg=NONE         guifg=#ffffff
 hi StatusLine         guibg=#666666      guifg=#060609
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
-hi String             guibg=NONE         guifg=#888888
+hi String             guibg=NONE         guifg=#aaaaaa
 hi Structure          guibg=NONE         guifg=#ffffff
 hi TabLineFill        guibg=NONE         guifg=#ffffff
 hi Tag                guibg=NONE         guifg=#ffffff
