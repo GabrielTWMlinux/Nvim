@@ -34,7 +34,7 @@ hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
 hi Label              guibg=NONE         guifg=#ffffff
-hi LineNr             guibg=NONE         guifg=#666666
+hi LineNr             guibg=NONE         guifg=#555555
 hi Macro              guibg=NONE         guifg=#ffffff
 hi MatchParen         guibg=NONE         guifg=#ffffff
 hi ModeMsg            guibg=NONE         guifg=#ffffff
@@ -64,7 +64,7 @@ hi Statement          guibg=NONE         guifg=#ffffff
 hi StatusLine         guibg=#666666      guifg=#060609
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
-hi String             guibg=NONE         guifg=#aaaaaa
+hi String             guibg=NONE         guifg=#999999
 hi Structure          guibg=NONE         guifg=#ffffff
 hi TabLineFill        guibg=NONE         guifg=#ffffff
 hi Tag                guibg=NONE         guifg=#ffffff
