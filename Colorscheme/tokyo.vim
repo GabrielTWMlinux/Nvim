@@ -2,81 +2,81 @@ set background=dark
 highlight clear
 syntax reset
 
-let g:colors_name='twm'
+let g:colors_name='tokyo'
 
-hi Boolean            ctermbg=NONE       ctermfg=15
-hi Character          ctermbg=NONE       ctermfg=15
-hi ColorColumn        ctermbg=NONE       ctermfg=15
-hi Comment            ctermbg=NONE       ctermfg=81
-hi Condtional         ctermbg=NONE       ctermfg=15
-hi Constant           ctermbg=NONE       ctermfg=15
-hi CursorColumn       ctermbg=NONE       ctermfg=15
-hi Cursor             ctermbg=NONE       ctermfg=15
-hi CursorLine         ctermbg=234        ctermfg=15        cterm=bold
-hi CursorLineNr       ctermbg=234        ctermfg=15        term=bold cterm=bold gui=bold
-hi Debug              ctermbg=NONE       ctermfg=15
-hi Define             ctermbg=NONE       ctermfg=15
-hi Delimiter          ctermbg=NONE       ctermfg=149
-hi DiffAdd            ctermbg=NONE       ctermfg=15
-hi DiffChange         ctermbg=NONE       ctermfg=15
-hi DiffDelete         ctermbg=NONE       ctermfg=15
-hi DiffText           ctermbg=NONE       ctermfg=15
-hi Directory          ctermbg=NONE       ctermfg=15
-hi Error              ctermbg=NONE       ctermfg=15
-hi ErrorMsg           ctermbg=NONE       ctermfg=15
-hi Exception          ctermbg=NONE       ctermfg=15
-hi Float              ctermbg=NONE       ctermfg=15
-hi FoldColumn         ctermbg=NONE       ctermfg=15
-hi Folded             ctermbg=NONE       ctermfg=15
-hi Function           ctermbg=NONE       ctermfg=15
-hi Identifier         ctermbg=NONE       ctermfg=153
-hi Include            ctermbg=NONE       ctermfg=15
-hi IncSearch          ctermbg=NONE       ctermfg=15
-hi Keyword            ctermbg=NONE       ctermfg=15
-hi Label              ctermbg=NONE       ctermfg=15
-hi LineNr             ctermbg=NONE       ctermfg=103
-hi Macro              ctermbg=NONE       ctermfg=15
-hi MatchParen         ctermbg=NONE       ctermfg=15
-hi ModeMsg            ctermbg=NONE       ctermfg=15
-hi MoreMsg            ctermbg=NONE       ctermfg=15
-hi NonText            ctermbg=NONE       ctermfg=15
-hi Normal             ctermbg=NONE       ctermfg=15
-hi Number             ctermbg=NONE       ctermfg=15
-hi Operator           ctermbg=NONE       ctermfg=15
-hi Pmenu              ctermbg=NONE       ctermfg=15
-hi PmenuSbar          ctermbg=NONE       ctermfg=15
-hi PmenuSel           ctermbg=NONE       ctermfg=75       cterm=bold
-hi PmenuThumb         ctermbg=NONE       ctermfg=15
-hi PreCondit          ctermbg=NONE       ctermfg=15
-hi PreProc            ctermbg=NONE       ctermfg=255
-hi Question           ctermbg=NONE       ctermfg=255
-hi Repeat             ctermbg=NONE       ctermfg=255
-hi Search             ctermbg=33         ctermfg=255
-hi SpecialChar        ctermbg=NONE       ctermfg=255
-hi SpecialComment     ctermbg=NONE       ctermfg=255
-hi Special            ctermbg=NONE       ctermfg=255
-hi SpecialKey         ctermbg=NONE       ctermfg=255
-hi SpellBad           ctermbg=250        ctermfg=0
-hi SpellCap           ctermbg=NONE       ctermfg=250
-hi SpellLocal         ctermbg=NONE       ctermfg=250
-hi SpellRare          ctermbg=NONE       ctermfg=250
-hi Statement          ctermbg=NONE       ctermfg=231
-hi StatusLine         ctermfg=232        ctermbg=242
-hi StatusLineNC       ctermbg=NONE       ctermfg=250
-hi StorageClass       ctermbg=NONE       ctermfg=250
-hi String             ctermbg=NONE       ctermfg=245
-hi Structure          ctermbg=NONE       ctermfg=255
-hi TabLineFill        ctermbg=NONE       ctermfg=255
-hi Tag                ctermbg=NONE       ctermfg=255
-hi Title              ctermbg=NONE       ctermfg=255
-hi Todo               ctermbg=NONE       ctermfg=240
-hi Type               ctermbg=NONE       ctermfg=103
-hi Typedef            ctermbg=NONE       ctermfg=55
-hi VertSplit          ctermbg=NONE       ctermfg=15
-hi Visual             ctermbg=24         ctermfg=15
-hi VisualNOS          ctermbg=NONE       ctermfg=15
-hi WarningMsg         ctermbg=NONE       ctermfg=15
-hi WildMenu           ctermbg=NONE       ctermfg=15
+hi Boolean            guibg=NONE         guifg=#ffffff
+hi Character          guibg=NONE         guifg=#ffffff
+hi ColorColumn        guibg=NONE         guifg=#ffffff
+hi Comment            guibg=NONE         guifg=#87d7ff
+hi Condtional         guibg=NONE         guifg=#ffffff
+hi Constant           guibg=NONE         guifg=#ffffff
+hi CursorColumn       guibg=NONE         guifg=#ffffff
+hi Cursor             guibg=NONE         guifg=#ffffff
+hi CursorLine         guibg=#1e1e21      guifg=#ffffff     gui=bold
+hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
+hi Debug              guibg=NONE         guifg=#ffffff
+hi Define             guibg=NONE         guifg=#ffffff
+hi Delimiter          guibg=NONE         guifg=#ffffff
+hi DiffAdd            guibg=NONE         guifg=#ffffff
+hi DiffChange         guibg=NONE         guifg=#ffffff
+hi DiffDelete         guibg=NONE         guifg=#ffffff
+hi DiffText           guibg=NONE         guifg=#ffffff
+hi Directory          guibg=NONE         guifg=#ffffff
+hi Error              guibg=NONE         guifg=#ffffff
+hi ErrorMsg           guibg=NONE         guifg=#ffffff
+hi Exception          guibg=NONE         guifg=#ffffff
+hi Float              guibg=NONE         guifg=#ffffff
+hi FoldColumn         guibg=NONE         guifg=#ffffff
+hi Folded             guibg=NONE         guifg=#ffffff
+hi Function           guibg=NONE         guifg=#ffffff
+hi Identifier         guibg=NONE         guifg=#8787af
+hi Include            guibg=NONE         guifg=#ffffff
+hi IncSearch          guibg=NONE         guifg=#ffffff
+hi Keyword            guibg=NONE         guifg=#ffffff
+hi Label              guibg=NONE         guifg=#ffffff
+hi LineNr             guibg=NONE         guifg=#8787af
+hi Macro              guibg=NONE         guifg=#ffffff
+hi MatchParen         guibg=NONE         guifg=#ffffff
+hi ModeMsg            guibg=NONE         guifg=#ffffff
+hi MoreMsg            guibg=NONE         guifg=#ffffff
+hi NonText            guibg=NONE         guifg=#ffffff
+hi Normal             guibg=NONE         guifg=#ffffff
+hi Number             guibg=NONE         guifg=#ffffff
+hi Operator           guibg=NONE         guifg=#ffffff
+hi Pmenu              guibg=NONE         guifg=#ffffff
+hi PmenuSbar          guibg=NONE         guifg=#ffffff
+hi PmenuSel           guibg=NONE         guifg=#8787af        gui=bold
+hi PmenuThumb         guibg=NONE         guifg=#ffffff
+hi PreCondit          guibg=NONE         guifg=#ffffff
+hi PreProc            guibg=NONE         guifg=#ffffff
+hi Question           guibg=NONE         guifg=#ffffff
+hi Repeat             guibg=NONE         guifg=#ffffff
+hi Search             guibg=#384957      guifg=#ffffff
+hi SpecialChar        guibg=NONE         guifg=#ffffff
+hi SpecialComment     guibg=NONE         guifg=#ffffff
+hi Special            guibg=NONE         guifg=#ffffff
+hi SpecialKey         guibg=NONE         guifg=#ffffff
+hi SpellBad           guibg=bcbcbc       guifg=#000000
+hi SpellCap           guibg=NONE         guifg=#bcbcbc
+hi SpellLocal         guibg=NONE         guifg=#bcbcbc
+hi SpellRare          guibg=NONE         guifg=#bcbcbc
+hi Statement          guibg=NONE         guifg=#bcbcbc
+hi StatusLine         guibg=#666666      guifg=#060609
+hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
+hi StorageClass       guibg=NONE         guifg=#bcbcbc
+hi String             guibg=NONE         guifg=#888888
+hi Structure          guibg=NONE         guifg=#ffffff
+hi TabLineFill        guibg=NONE         guifg=#ffffff
+hi Tag                guibg=NONE         guifg=#ffffff
+hi Title              guibg=NONE         guifg=#ffffff
+hi Todo               guibg=NONE         guifg=#585858
+hi Type               guibg=NONE         guifg=#af8787
+hi Typedef            guibg=NONE         guifg=#5f00af
+hi VertSplit          guibg=NONE         guifg=#ffffff
+hi Visual             guibg=#555555      guifg=#ffffff
+hi VisualNOS          guibg=NONE         guifg=#ffffff
+hi WarningMsg         guibg=NONE         guifg=#ffffff
+hi WildMenu           guibg=NONE         guifg=#ffffff
 
 "hi def link diffCommon Statement
 "hi def link diffRemoved DiffDelet
