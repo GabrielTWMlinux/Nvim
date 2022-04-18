@@ -12,7 +12,7 @@ hi Condtional         guibg=NONE         guifg=#ffffff
 hi Constant           guibg=NONE         guifg=#ffffff
 hi CursorColumn       guibg=NONE         guifg=#ffffff
 hi Cursor             guibg=NONE         guifg=#ffffff
-hi CursorLine         guibg=#151517      guifg=#ffffff     gui=bold
+hi CursorLine         guibg=#141414      guifg=#ffffff     gui=bold
 hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
 hi Debug              guibg=NONE         guifg=#ffffff
 hi Define             guibg=NONE         guifg=#ffffff
@@ -29,7 +29,7 @@ hi Float              guibg=NONE         guifg=#ffffff
 hi FoldColumn         guibg=NONE         guifg=#ffffff
 hi Folded             guibg=NONE         guifg=#ffffff
 hi Function           guibg=NONE         guifg=#ffffff
-hi Identifier         guibg=NONE         guifg=#af8787
+hi Identifier         guibg=NONE         guifg=#8787af
 hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
@@ -61,7 +61,7 @@ hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
 hi Statement          guibg=NONE         guifg=#ffffff
-hi StatusLine         guibg=#666666      guifg=#060609
+hi StatusLine         guibg=#666666      guifg=#080808
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
 hi String             guibg=NONE         guifg=#999999
@@ -76,9 +76,10 @@ hi VertSplit          guibg=NONE         guifg=#ffffff
 hi Visual             guibg=#555555      guifg=#ffffff
 hi VisualNOS          guibg=NONE         guifg=#ffffff
 hi WarningMsg         guibg=NONE         guifg=#ffffff
-hi WildMenu           guibg=NONE         guifg=#ffffff
+hi WildMenu          guibg=NONE         guifg=#ffffff
 
 "hi def link diffCommon Statement
 "hi def link diffRemoved DiffDelet
 "hi def lin diffChanged DiffChang
 "hi def link diffAdded DifAdd
+ 

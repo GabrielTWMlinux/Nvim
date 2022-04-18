@@ -12,7 +12,7 @@ hi Condtional         guibg=NONE         guifg=#ffffff
 hi Constant           guibg=NONE         guifg=#ffffff
 hi CursorColumn       guibg=NONE         guifg=#ffffff
 hi Cursor             guibg=NONE         guifg=#ffffff
-hi CursorLine         guibg=#1e1e21      guifg=#ffffff     gui=bold
+hi CursorLine         guibg=#1e1e2a      guifg=#ffffff     gui=bold
 hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
 hi Debug              guibg=NONE         guifg=#ffffff
 hi Define             guibg=NONE         guifg=#ffffff
@@ -29,7 +29,7 @@ hi Float              guibg=NONE         guifg=#ffffff
 hi FoldColumn         guibg=NONE         guifg=#ffffff
 hi Folded             guibg=NONE         guifg=#ffffff
 hi Function           guibg=NONE         guifg=#ffffff
-hi Identifier         guibg=NONE         guifg=#8787af
+hi Identifier         guibg=NONE         guifg=#6a89a2
 hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
@@ -61,7 +61,7 @@ hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
 hi Statement          guibg=NONE         guifg=#ffffff
-hi StatusLine         guibg=#666666      guifg=#060609
+hi StatusLine         guibg=#666666      guifg=#13131b
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
 hi String             guibg=NONE         guifg=#888888
