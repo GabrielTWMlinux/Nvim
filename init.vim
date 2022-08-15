@@ -13,8 +13,10 @@ set termguicolors
 syntax on
 set number
 set cursorline
+set noswapfile
+set mouse=a
 
-" highlight clear StatusLine
+highlight clear StatusLine
 
 set ignorecase
 
@@ -26,4 +28,10 @@ au VimLeave,VimSuspend * set guicursor=a:ver90:block-blinkon0
 
 let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla,colour_names'
 let g:Hexokinase_highlighters = [ 'backgroundfull' ]
-source $HOME/.config/nvim/vim-plug/plugins.vim
+
+call plug#begin()
+
+Plug 'dense-analysis/ale'
+Plug 'rrethy/vim-hexokinase'
+
+call plug#end()
