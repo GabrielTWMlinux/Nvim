@@ -29,7 +29,7 @@ hi Float              guibg=NONE         guifg=#ffffff
 hi FoldColumn         guibg=NONE         guifg=#ffffff
 hi Folded             guibg=NONE         guifg=#ffffff
 hi Function           guibg=NONE         guifg=#ffffff
-hi Identifier         guibg=NONE         guifg=#585b70
+hi Identifier         guibg=NONE         guifg=#f5c2e7
 hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
@@ -51,7 +51,7 @@ hi PreCondit          guibg=NONE         guifg=#ffffff
 hi PreProc            guibg=NONE         guifg=#ffffff
 hi Question           guibg=NONE         guifg=#ffffff
 hi Repeat             guibg=NONE         guifg=#ffffff
-hi Search             guibg=#b4befe      guifg=#ffffff
+hi Search             guibg=#fab387      guifg=#ffffff
 hi SpecialChar        guibg=NONE         guifg=#ffffff
 hi SpecialComment     guibg=NONE         guifg=#ffffff
 hi Special            guibg=NONE         guifg=#ffffff
@@ -61,10 +61,10 @@ hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
 hi Statement          guibg=NONE         guifg=#ffffff
-hi StatusLine         guibg=#666666      guifg=#111118
+hi StatusLine         guibg=#f2cdcd      guifg=#11111b
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
-hi String             guibg=NONE         guifg=#6c7086
+hi String             guibg=NONE         guifg=#9399b2
 hi Structure          guibg=NONE         guifg=#ffffff
 hi TabLineFill        guibg=NONE         guifg=#ffffff
 hi Tag                guibg=NONE         guifg=#ffffff
