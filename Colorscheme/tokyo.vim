@@ -7,12 +7,12 @@ let g:colors_name='tokyo'
 hi Boolean            guibg=NONE         guifg=#ffffff
 hi Character          guibg=NONE         guifg=#ffffff
 hi ColorColumn        guibg=NONE         guifg=#ffffff
-hi Comment            guibg=NONE         guifg=#87d7ff
+hi Comment            guibg=NONE         guifg=#7dcfff
 hi Condtional         guibg=NONE         guifg=#ffffff
 hi Constant           guibg=NONE         guifg=#ffffff
 hi CursorColumn       guibg=NONE         guifg=#ffffff
 hi Cursor             guibg=NONE         guifg=#ffffff
-hi CursorLine         guibg=#1e1e2a      guifg=#ffffff     gui=bold
+hi CursorLine         guibg=#16161E      guifg=#ffffff     gui=bold
 hi CursorLineNr       guibg=NONE         guifg=#ffffff     gui=bold gui=bold
 hi Debug              guibg=NONE         guifg=#ffffff
 hi Define             guibg=NONE         guifg=#ffffff
@@ -29,12 +29,12 @@ hi Float              guibg=NONE         guifg=#ffffff
 hi FoldColumn         guibg=NONE         guifg=#ffffff
 hi Folded             guibg=NONE         guifg=#ffffff
 hi Function           guibg=NONE         guifg=#ffffff
-hi Identifier         guibg=NONE         guifg=#6a89a2
+hi Identifier         guibg=NONE         guifg=#9aa5ce
 hi Include            guibg=NONE         guifg=#ffffff
 hi IncSearch          guibg=NONE         guifg=#ffffff
 hi Keyword            guibg=NONE         guifg=#ffffff
 hi Label              guibg=NONE         guifg=#ffffff
-hi LineNr             guibg=NONE         guifg=#8787af
+hi LineNr             guibg=NONE         guifg=#414868
 hi Macro              guibg=NONE         guifg=#ffffff
 hi MatchParen         guibg=NONE         guifg=#ffffff
 hi ModeMsg            guibg=NONE         guifg=#ffffff
@@ -51,7 +51,7 @@ hi PreCondit          guibg=NONE         guifg=#ffffff
 hi PreProc            guibg=NONE         guifg=#ffffff
 hi Question           guibg=NONE         guifg=#ffffff
 hi Repeat             guibg=NONE         guifg=#ffffff
-hi Search             guibg=#384957      guifg=#ffffff
+hi Search             guibg=#2ac3de      guifg=#1a1b26
 hi SpecialChar        guibg=NONE         guifg=#ffffff
 hi SpecialComment     guibg=NONE         guifg=#ffffff
 hi Special            guibg=NONE         guifg=#ffffff
@@ -61,10 +61,10 @@ hi SpellCap           guibg=NONE         guifg=#bcbcbc
 hi SpellLocal         guibg=NONE         guifg=#bcbcbc
 hi SpellRare          guibg=NONE         guifg=#bcbcbc
 hi Statement          guibg=NONE         guifg=#ffffff
-hi StatusLine         guibg=#666666      guifg=#13131b
+hi StatusLine         guibg=#b4f9f8      guifg=#1a1b26
 hi StatusLineNC       guibg=NONE         guifg=#bcbcbc
 hi StorageClass       guibg=NONE         guifg=#bcbcbc
-hi String             guibg=NONE         guifg=#888888
+hi String             guibg=NONE         guifg=#b4f9f8
 hi Structure          guibg=NONE         guifg=#ffffff
 hi TabLineFill        guibg=NONE         guifg=#ffffff
 hi Tag                guibg=NONE         guifg=#ffffff
@@ -73,7 +73,7 @@ hi Todo               guibg=NONE         guifg=#585858
 hi Type               guibg=NONE         guifg=#af8787
 hi Typedef            guibg=NONE         guifg=#5f00af
 hi VertSplit          guibg=NONE         guifg=#ffffff
-hi Visual             guibg=#555555      guifg=#ffffff
+hi Visual             guibg=#b4f9f8      guifg=#000000
 hi VisualNOS          guibg=NONE         guifg=#ffffff
 hi WarningMsg         guibg=NONE         guifg=#ffffff
 hi WildMenu           guibg=NONE         guifg=#ffffff
